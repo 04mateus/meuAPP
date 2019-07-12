@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Compras Mercado</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="titulo">Suas Listas de Compras</h2>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Compras</h2>
+            <div id="app">
+
+                <input type="text" id="todo" placeholder="Digite um todo">
+                <input type="text" id="when" placeholder="Digite um todo">
+
+                <button>Adicionar</button>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-compras">
+
+                        <tr class="compra" id="primeiro-compra">
+                            <td class="info-nome">Paulo
+                                <a href="#">Excluir</a>
+                            </td>
+                            <td class="info-quantidade">1
+                                <a href="#">Excluir</a>
+                            </td>
+                            <td class="info-preco">x
+                                <a href="#">Excluir</a>
+                            </td>
+                            <td class="info-total">y
+                                <a href="#">Excluir</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="todos.js"></script>
+</body>
+
+</html>
